@@ -71,11 +71,13 @@ body {
 }
 
 .nickname {
-    font-family: "Roboto", sans-serif;
-    color: white;
-	margin: 0;
-	margin-bottom: -10px;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: 0px 1px 5px #6c7add, 0px 1px 5px #ffffff, 0px 0px 2px #7db7ff, 1px 1px 0px #1beaff, 0px 0px 0px #20176d, 0px 0px 1px #17140b, 1px 1px 1px #ffffff, 2px 3px 1px #5245c3, 3px 3px 5px #45b9c5;
 }
+
 
 .discord {
     height: 24px;
@@ -144,6 +146,7 @@ body {
 
 .social-links img:hover {
   filter: blur(2px);
+  box-shadow: 0 0 10px 3px rgba(108, 122, 221, 0.7);
 }
 
 .spotifyplayer {
